@@ -1,0 +1,31 @@
+.smallWidget {
+  flex: 1;
+  -webkit-box-shadow: 2px 1px 11px 1px hsl(0, 4%, 81%);
+  box-shadow: 2px 1px 11px 1px #d4d4d4;
+  padding: 1.3rem;
+  margin-right: 1rem;
+  border-radius: 0.8rem;
+}
+
+.smallWidgetTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.smallWidgetList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.smallWidgetListItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.smallWidgetImage {
+  height: 3rem;
+  object-fit: cover;
+}

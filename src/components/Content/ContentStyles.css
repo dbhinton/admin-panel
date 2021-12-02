@@ -1,0 +1,40 @@
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.contentItem {
+  flex: 1;
+  margin: 0 20px;
+  padding: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-box-shadow: 2px 1px 11px 1px hsl(0, 4%, 81%);
+  box-shadow: 2px 1px 11px 1px #d4d4d4;
+}
+
+.contentTitle{
+    font-size: 1.3rem;
+}
+
+.contentWidgetContainer{
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.contentWidgetAmount{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+.contentWidgetRate{
+    margin-left: 20px;
+}
+
+.contentWidgetSubtitle{
+    color: rgb(144, 137, 137);
+}

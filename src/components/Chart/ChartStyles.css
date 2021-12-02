@@ -1,0 +1,11 @@
+.chart{
+    margin: 1.3rem;
+    padding: 1.3rem;
+    -webkit-box-shadow: 2px 1px 11px 1px hsl(0, 4%, 81%);
+    box-shadow: 2px 1px 11px 1px #d4d4d4;
+    border-radius: 10px;
+}
+
+.chartWidgetTitle{
+    margin-bottom: 20px;
+}
