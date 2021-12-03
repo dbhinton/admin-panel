@@ -1,18 +1,26 @@
 import React from "react";
-import MenuBar from "./components/MenuBar/MenuBar.js";
+import Layout from "./pages/Layout/Layout";
 import SideBar from "./components/SideBar/SideBar";
-import Home from "./pages/Home/Home"
+import Home from "./pages/Home/Home";
+import User from "./pages/Users/Users";
 import "./index.css";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div>
-      <MenuBar />
-      <div className="container">
-        <SideBar />
-        <Home />
-      </div>
-    </div>
+    <>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+            <React.Fragment className="container">
+
+            <Route index element={<Home />} />
+            <Route path="/users" element={<User />} />
+            </React.Fragment>
+    
+
+        </Route>
+      </Routes>
+    </>
   );
 }
 

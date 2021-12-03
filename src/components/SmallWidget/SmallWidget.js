@@ -10,11 +10,11 @@ export default function SmallWidget() {
                 <li className="smallWidgetListItem">
                     <img src="https://i.imgur.com/nulR6IG.png" alt="smallImg" className="smallWidgetImage"/>
                     <div className="smallWidgetUser">
-                        <span className="smallWidgetUserName">David Hinton</span>
+                        <span className="smallWidgetUsername">David Hinton</span>
                         <span className="smallWidgetRole">Software Engineer</span>
                     </div>
                     <button className="smallWidgetButton">
-                        <Visibility />
+                        <Visibility className="smallWidgetIcon"/>
                         Display
                     </button>
 
@@ -22,11 +22,11 @@ export default function SmallWidget() {
                 <li className="smallWidgetListItem">
                     <img src="https://i.imgur.com/nulR6IG.png" alt="smallImg" className="smallWidgetImage"/>
                     <div className="smallWidgetUser">
-                        <span className="smallWidgetUserName">David Hinton</span>
+                        <span className="smallWidgetUsername">David Hinton</span>
                         <span className="smallWidgetRole">Software Engineer</span>
                     </div>
                     <button className="smallWidgetButton">
-                        <Visibility />
+                        <Visibility className="smallWidgetIcon"/>
                         Display
                     </button>
 
@@ -34,11 +34,11 @@ export default function SmallWidget() {
                 <li className="smallWidgetListItem">
                     <img src="https://i.imgur.com/nulR6IG.png" alt="smallImg" className="smallWidgetImage"/>
                     <div className="smallWidgetUser">
-                        <span className="smallWidgetUserName">David Hinton</span>
+                        <span className="smallWidgetUsername">David Hinton</span>
                         <span className="smallWidgetRole">Software Engineer</span>
                     </div>
                     <button className="smallWidgetButton">
-                        <Visibility />
+                        <Visibility className="smallWidgetIcon"/>
                         Display
                     </button>
 
@@ -46,11 +46,11 @@ export default function SmallWidget() {
                 <li className="smallWidgetListItem">
                     <img src="https://i.imgur.com/nulR6IG.png" alt="smallImg" className="smallWidgetImage"/>
                     <div className="smallWidgetUser">
-                        <span className="smallWidgetUserName">David Hinton</span>
+                        <span className="smallWidgetUsername">David Hinton</span>
                         <span className="smallWidgetRole">Software Engineer</span>
                     </div>
                     <button className="smallWidgetButton">
-                        <Visibility />
+                        <Visibility className="smallWidgetIcon"/>
                         Display
                     </button>
 
@@ -58,15 +58,16 @@ export default function SmallWidget() {
                 <li className="smallWidgetListItem">
                     <img src="https://i.imgur.com/nulR6IG.png" alt="smallImg" className="smallWidgetImage"/>
                     <div className="smallWidgetUser">
-                        <span className="smallWidgetUserName">David Hinton</span>
+                        <span className="smallWidgetUsername">David Hinton</span>
                         <span className="smallWidgetRole">Software Engineer</span>
                     </div>
                     <button className="smallWidgetButton">
-                        <Visibility />
+                        <Visibility className="smallWidgetIcon"/>
                         Display
                     </button>
 
                 </li>
+     
 
             </ul>
         </div>

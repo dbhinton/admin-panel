@@ -5,3 +5,56 @@
   padding: 1.3rem;
   border-radius: 10px;
 }
+
+.largeWidgetTitle {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.largeWidgetTable {
+  width: 100%;
+  border-spacing: 20px;
+}
+
+.largeWidgetTh {
+  text-align: left;
+}
+
+.largeWidgetUser {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.largeWidgetImage {
+  height: 3rem;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+
+.largeWidgetDate, .largeWidgetAmount{
+  color: grey;
+  font-weight: 300;
+}
+
+.largeWidgetButton {
+  padding: 7px 10px;
+  border: none;
+  border-radius: 10px;
+  height: 30px;
+}
+
+.largeWidgetButton.Approved {
+  background-color: rgb(135, 216, 135);
+  color: rgb(25, 58, 19);
+}
+
+.largeWidgetButton.Pending {
+  background-color: rgb(228, 211, 118);
+  color: rgb(109, 110, 43);
+}
+
+.largeWidgetButton.Declined {
+  background-color: rgb(243, 124, 124);
+  color: rgb(95, 12, 12);
+}

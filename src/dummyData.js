@@ -48,3 +48,105 @@ export const salesData = [
         "Products Sold Amount": 4000,
       },
   ];
+
+  export const userRows = [
+    {
+      id: 0,
+      username: "dbhinton",
+      avatar: "https://i.imgur.com/nulR6IG.png",
+      email: "dhinton.us@gmail.com",
+      numberOfOrders: 22,
+      totalAmountSpent: 850,
+      status: 'Active'
+    },
+    {
+        id: 1,
+        username: "dbhinton",
+        avatar: "https://i.imgur.com/nulR6IG.png",
+        email: "dhinton.us@gmail.com",
+        numberOfOrders: 22,
+        totalAmountSpent: 850,
+        status: 'Active'
+      },
+      {
+        id: 2,
+        username: "dbhinton",
+        avatar: "https://i.imgur.com/nulR6IG.png",
+        email: "dhinton.us@gmail.com",
+        numberOfOrders: 22,
+        totalAmountSpent: 850,
+        status: 'Active'
+      },
+      {
+        id: 3,
+        username: "dbhinton",
+        avatar: "https://i.imgur.com/nulR6IG.png",
+        email: "dhinton.us@gmail.com",
+        numberOfOrders: 22,
+        totalAmountSpent: 850,
+        status: 'Active'
+      },
+      {
+        id: 4,
+        username: "dbhinton",
+        avatar: "https://i.imgur.com/nulR6IG.png",
+        email: "dhinton.us@gmail.com",
+        numberOfOrders: 22,
+        totalAmountSpent: 850,
+        status: 'Active'
+      },
+      {
+        id: 5,
+        username: "dbhinton",
+        avatar: "https://i.imgur.com/nulR6IG.png",
+        email: "dhinton.us@gmail.com",
+        numberOfOrders: 22,
+        totalAmountSpent: 850,
+        status: 'Active'
+      },
+      {
+        id: 6,
+        username: "dbhinton",
+        avatar: "https://i.imgur.com/nulR6IG.png",
+        email: "dhinton.us@gmail.com",
+        numberOfOrders: 22,
+        totalAmountSpent: 850,
+        status: 'Active'
+      },
+      {
+        id: 7,
+        username: "dbhinton",
+        avatar: "https://i.imgur.com/nulR6IG.png",
+        email: "dhinton.us@gmail.com",
+        numberOfOrders: 22,
+        totalAmountSpent: 850,
+        status: 'Active'
+      },
+      {
+        id: 8,
+        username: "dbhinton",
+        avatar: "https://i.imgur.com/nulR6IG.png",
+        email: "dhinton.us@gmail.com",
+        numberOfOrders: 22,
+        totalAmountSpent: 850,
+        status: 'Inactive'
+      },
+      {
+        id: 9,
+        username: "dbhinton",
+        avatar: "https://i.imgur.com/nulR6IG.png",
+        email: "dhinton.us@gmail.com",
+        numberOfOrders: 22,
+        totalAmountSpent: 850,
+        status: 'Active'
+      },
+      {
+        id: 10,
+        username: "dbhinton",
+        avatar: "https://i.imgur.com/nulR6IG.png",
+        email: "dhinton.us@gmail.com",
+        numberOfOrders: 22,
+        totalAmountSpent: 850,
+        status: 'Inactive'
+      },
+  ];
