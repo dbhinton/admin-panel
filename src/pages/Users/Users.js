@@ -1,11 +1,18 @@
 import React, {useState} from "react";
-import "./UserStyles.css";
+import "./UsersStyles.css";
 import { DataGrid } from "@mui/x-data-grid";
 import { DeleteOutline } from "@material-ui/icons";
 import { userRows } from "../../dummyData";
 import { Link } from "react-router-dom";
 export default function Users() {
     const [data, setData] = useState(userRows)
+
+    console.log(data, '<----data')
+    console.log(userRows, '<---user')
+
+    const handleDelete = (id) => {
+      setData(data.filter(item => item.id !== id))
+    }
 
   const columns = [
     { field: "id", headerName: "ID", width: 70 },
@@ -43,10 +50,10 @@ export default function Users() {
       renderCell: (params) => {
         return(
           <>
-          <Link to={`/user/${params.rows.id}`}>
+          <Link to={`/user/${params.row.id}`}>
             <button>Edit</button>
           </Link>
-          <DeleteOutline className="userListDelete"/>
+          <DeleteOutline className="userListDelete" onClick={() => handleDelete(params.row.id)}/>
           </>
           
         )

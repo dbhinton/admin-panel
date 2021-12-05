@@ -1,0 +1,64 @@
+.newUser {
+  flex: 4;
+  margin: 2rem;
+}
+
+.newUserTitle {
+  margin: 1rem 0;
+}
+.newUserForm {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+.newUserFormItem {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.newUserFormItem>label{
+    margin-bottom: 5px;
+    font-size: 1rem;
+    color: rgb(112, 112, 112);
+    font-weight: 600;
+}
+
+.newUserFormItem>input, .newUserFormItem>select{
+    height: 1.5rem;
+    border: 1px solid grey;
+    border-radius: 5px;
+
+}
+
+.newUserButton{
+    background-color: navy;
+    color: white;
+    width: 12rem;
+    margin-top: 2rem;
+    text-align: center;
+    padding: 7px 70px;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 635px) {
+    .newUserFormItem {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        margin-right: 20px;
+      }
+  }
+
+  @media only screen and (max-width: 580px) {
+    .newUserFormItem {
+        width: 280px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        margin-right: 20px;
+      }
+  }

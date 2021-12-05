@@ -9,6 +9,8 @@ import {  LineStyle,
     BarChart,
     MailOutline,
 } from '@material-ui/icons';
+import { Link } from "react-router-dom";
+
 export default function SideBar() {
     return (
         <div className="sideBar">
@@ -17,12 +19,18 @@ export default function SideBar() {
                     <h3 className="sideBarTitle">Dashboard</h3>
                     <ul className='sideBarList'>
                         <li className="sideBarListItem active">
+                            <Link to='/' className="link">
                             <LineStyle className='sideBarIcon'/>
                             Home
+                            </Link>
+
                         </li>
                         <li className="sideBarListItem">
+                            <Link to="/analytics" className="link">
                             <Timeline className='sideBarIcon'/>
                             Analytics
+                            </Link>
+                         
                         </li>
                         <li className="sideBarListItem">
                             <TrendingUp className='sideBarIcon'/>
@@ -34,13 +42,19 @@ export default function SideBar() {
                     <h3 className="sideBarTitle">Quick Menu</h3>
                     <ul className='sideBarList'>
                         <li className="sideBarListItem">
+                            <Link to='/users' className="link">
                             <PermIdentity className='sideBarIcon'/>
                             Users
+                            </Link>
+                          
                         </li>
+                        <Link to='products' className='link'>
                         <li className="sideBarListItem">
                             <Storefront className='sideBarIcon'/>
                             Products
                         </li>
+                        </Link>
+                     
                         <li className="sideBarListItem">
                             <AttachMoney className='sideBarIcon'/>
                             Transactions

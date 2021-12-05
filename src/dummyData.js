@@ -142,11 +142,23 @@ export const salesData = [
       },
       {
         id: 10,
-        username: "dbhinton",
+        username: "Canon 5D Mark IV",
         avatar: "https://i.imgur.com/nulR6IG.png",
         email: "dhinton.us@gmail.com",
         numberOfOrders: 22,
         totalAmountSpent: 850,
         status: 'Inactive'
       },
+  ];
+
+
+  export const productRows = [
+    {
+      id: 0,
+      name: "Canon 5D Mark IV",
+      avatar: "https://i.imgur.com/PJfIjH9.jpg",
+      price: 2300,
+      quantity: 22,
+    },
+
   ];
