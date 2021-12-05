@@ -63,7 +63,7 @@ export default function UserDetail() {
                 <label>Full Name</label>
                 <input
                   type="text"
-                  placeholder="username for user"
+                  placeholder="Enter Full Name"
                   className="userUpdateInput"
                 />
               </div>
@@ -71,7 +71,7 @@ export default function UserDetail() {
                 <label>Username</label>
                 <input
                   type="text"
-                  placeholder="username for user"
+                  placeholder="Enter Username"
                   className="userUpdateInput"
                 />
               </div>
@@ -79,7 +79,7 @@ export default function UserDetail() {
                 <label>Email</label>
                 <input
                   type="text"
-                  placeholder="Email"
+                  placeholder="Enter Email"
                   className="userUpdateInput"
                 />
               </div>
@@ -88,7 +88,7 @@ export default function UserDetail() {
                 <label>Phone Number</label>
                 <input
                   type="text"
-                  placeholder="Phone Number"
+                  placeholder="Enter Phone Number"
                   className="userUpdateInput"
                 />
               </div>
@@ -96,7 +96,7 @@ export default function UserDetail() {
                 <label>Address</label>
                 <input
                   type="text"
-                  placeholder="Address"
+                  placeholder="Enter Address"
                   className="userUpdateInput"
                 />
               </div>

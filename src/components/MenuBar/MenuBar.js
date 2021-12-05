@@ -8,7 +8,7 @@ export default function MenuBar() {
     <div className="menuBar">
      <div className='menuBarWrapper'>
        <div className="menuBarLeft">
-          <span className='logo'>Admin</span> 
+          <span className='logo'>Hunt's Photo Admin</span> 
        </div>
        <div className="menuBarRight">
            <div className='menuIconContainer'>

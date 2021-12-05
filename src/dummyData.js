@@ -49,6 +49,21 @@ export const salesData = [
       },
   ];
 
+  export const productData = [
+    {
+      month: "Jan",
+      "Sales": 4000,
+    },
+    {
+        month: "Feb",
+        "Sales": 2000,
+      },
+      {
+        month: "March",
+        "Sales": 2000,
+      },
+  ];
+
   export const userRows = [
     {
       id: 0,
@@ -159,6 +174,87 @@ export const salesData = [
       avatar: "https://i.imgur.com/PJfIjH9.jpg",
       price: 2300,
       quantity: 22,
+      status: 'active',
+    },
+    {
+      id: 1,
+      name: "Canon 5D Mark IV",
+      avatar: "https://i.imgur.com/PJfIjH9.jpg",
+      price: 2300,
+      quantity: 22,
+      status: 'active',
+    },
+    {
+      id: 2,
+      name: "Canon 5D Mark IV",
+      avatar: "https://i.imgur.com/PJfIjH9.jpg",
+      price: 2300,
+      quantity: 22,
+      status: 'active',
+    },
+    {
+      id: 3,
+      name: "Canon 5D Mark IV",
+      avatar: "https://i.imgur.com/PJfIjH9.jpg",
+      price: 2300,
+      quantity: 22,
+      status: 'active',
+    },
+    {
+      id: 4,
+      name: "Canon 5D Mark IV",
+      avatar: "https://i.imgur.com/PJfIjH9.jpg",
+      price: 2300,
+      quantity: 22,
+      status: 'active',
+    },
+    {
+      id: 5,
+      name: "Canon 5D Mark IV",
+      avatar: "https://i.imgur.com/PJfIjH9.jpg",
+      price: 2300,
+      quantity: 22,
+      status: 'active',
+    },
+    {
+      id: 6,
+      name: "Canon 5D Mark IV",
+      avatar: "https://i.imgur.com/PJfIjH9.jpg",
+      price: 2300,
+      quantity: 22,
+      status: 'active',
+    },
+    {
+      id: 7,
+      name: "Canon 5D Mark IV",
+      avatar: "https://i.imgur.com/PJfIjH9.jpg",
+      price: 2300,
+      quantity: 22,
+      status: 'active',
+    },
+    {
+      id: 8,
+      name: "Canon 5D Mark IV",
+      avatar: "https://i.imgur.com/PJfIjH9.jpg",
+      price: 2300,
+      quantity: 22,
+      status: 'active',
+    },
+    {
+      id: 9,
+      name: "Canon 5D Mark IV",
+      avatar: "https://i.imgur.com/PJfIjH9.jpg",
+      price: 2300,
+      quantity: 22,
+      status: 'active',
+    },
+    {
+      id: 10,
+      name: "Canon 5D Mark IV",
+      avatar: "https://i.imgur.com/PJfIjH9.jpg",
+      price: 2300,
+      quantity: 22,
+      status: 'active',
     },
 
   ];
